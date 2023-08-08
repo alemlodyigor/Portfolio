@@ -1,0 +1,31 @@
+.profile {
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.2fr 0.3fr 0.2fr 0.7fr;
+  padding: 2rem 2rem 0rem 2rem;
+  font-size: 1.8rem;
+  &__img {
+    width:90%;
+    justify-self: center;
+    border-radius: 50%;
+  }
+
+  &__socials {
+    &__block {
+      img {
+        width: 20%;
+      }
+    }
+  }
+  &__desc {
+
+  }
+
+  &__list {
+    list-style-type: none;
+    &__element {
+    }
+  }
+}

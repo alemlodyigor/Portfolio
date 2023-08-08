@@ -1,0 +1,33 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+.home {
+  height: 100svh;
+  display: grid;
+  grid-template-columns: .3fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 2rem;
+  background-color: grey;
+  color: #fff;
+}

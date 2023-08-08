@@ -1,10 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Content from "./components/Content";
+import Profile from "./components/Profile";
+import '../styles/home.scss';
 
 const Home = () => {
     return (
         <div className="home">
-            <Navbar />
+            <Content />
+            <Profile/>
         </div>
     )
 }
