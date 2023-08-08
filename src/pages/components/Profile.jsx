@@ -2,16 +2,17 @@ import React from "react";
 import "../../styles/profile.scss";
 import ProfileIMG from "../../assets/profileimg.png";
 import Github from "../../assets/github.svg";
+import X from "../../assets/x.png";
 
 const Profile = () => {
   return (
     <div className="profile">
-      <img src={ProfileIMG} alt="" className="profile__img"/>
+      <img src={ProfileIMG} alt="" className="profile__img" />
       <h1 className="profile__name">Alemlodyigor</h1>
       <div className="profile__socials">
         <div className="profile__socials__block">
           <a href=""><img src={Github} alt="" /></a>
-          <a href=""><img src={Github} alt="" /></a>
+          <a href=""><img src={X} alt="" /></a>
         </div>
       </div>
       <p className="profile__desc">
@@ -27,6 +28,9 @@ const Profile = () => {
         <li className="profile__list__element">- React</li>
         <li className="profile__list__element">
           - Electron (tylko przy dystrybucji na systemy windows)
+        </li>
+        <li className="profile__list__element">
+          - PHP (tylko przy formularzu kontaktu)
         </li>
       </ul>
     </div>

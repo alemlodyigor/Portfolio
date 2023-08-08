@@ -5,7 +5,7 @@ const Destiny = () => {
   return (
     <div className="content-preview">
       <h2 className="content-preview__name">
-        Destiny<span>[W realizacji]</span>
+        Destiny<span> [W realizacji]</span>
       </h2>
       <div className="content-preview__desc">
         <p>

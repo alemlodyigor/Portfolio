@@ -25,9 +25,24 @@ body {
 .home {
   height: 100svh;
   display: grid;
-  grid-template-columns: .3fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
   grid-template-rows: 1fr;
-  row-gap: 2rem;
   background-color: grey;
   color: #fff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
