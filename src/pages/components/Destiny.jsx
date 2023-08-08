@@ -14,7 +14,7 @@ const Destiny = () => {
           umożliwia rejestrację za pomocą emaila i hasła oraz dodanie swojego
           awataru. Aplikacja została stworzona za pomocą React oraz SCSS. Bazą
           danych do aplikacji jest FireBase. Strona bedzie dostępna pod adresem
-          <a href="#">Destiny</a>. Najważniejsze funkcje która finalnie będzie
+          <a href="#"> Destiny</a>. Najważniejsze funkcje która finalnie będzie
           mieć aplikacja:
         </p>
         <ul className="content-preview__desc__list">
@@ -30,7 +30,6 @@ const Destiny = () => {
         </ul>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
-      <VideoPlayer />
     </div>
   );
 };

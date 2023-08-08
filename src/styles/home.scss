@@ -1,4 +1,7 @@
 :root {
+  --bgc-dark-primary: #212529;
+  --bgc-dark-secondary: #343a40;
+  --bgc-grey-primary: #e9ecef;
 }
 
 * {
@@ -27,8 +30,8 @@ body {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   grid-template-rows: 1fr;
-  background-color: grey;
-  color: #fff;
+  background-color: var(--bgc-dark-primary);
+  color: var(--bgc-grey-primary);
 }
 
 a:link {

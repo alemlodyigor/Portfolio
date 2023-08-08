@@ -14,7 +14,7 @@ const Gerinstal = () => {
           oraz kilka mniejszych komponentów takich jak formularz kontaktu czy
           mapa oraz inne. Przy tworzeniu strony języki które zostały użyte to
           HTML, SCSS, Javascript i PHP.Strona jest dostępna pod adresem
-          <a href="https://ger-instal.pl/">Ger-instal</a>.
+          <a href="https://ger-instal.pl/" target="_blank"> Ger-instal</a>.
         </p>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
