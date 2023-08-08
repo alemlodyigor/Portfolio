@@ -18,7 +18,6 @@ const Content = () => {
     <div className="content">
       <div className="content-projects">
         <nav className="content-projects__nav">
-          <h2 className="content-projects__name">Projects</h2>
           <ul className="content-projects__list">
             <li
               onClick={() => handleProjectClick("myw")}

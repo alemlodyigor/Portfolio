@@ -5,7 +5,8 @@
 
   &-projects {
     &__nav{
-      padding: 2rem 5rem 0rem 5rem;
+      padding: 0rem 5rem 0rem 5rem;
+
       background-color: grey;
     }
     &__name {
@@ -14,7 +15,9 @@
     }
     &__list {
       list-style-type: none;
+      height: 5rem;
       display: flex;
+      align-items:center;
       justify-content: space-between;
       &__element {
         text-transform: uppercase;

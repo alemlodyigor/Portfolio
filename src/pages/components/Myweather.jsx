@@ -1,5 +1,6 @@
 import React from "react";
 import VideoPlayer from "./VideoPlayer";
+import MyW from '../../assets/myw.mp4';
 
 const Myweather = () => {
   return (
@@ -35,7 +36,7 @@ const Myweather = () => {
         </ul>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
-      <VideoPlayer />
+      <VideoPlayer data={MyW} />
     </div>
   );
 };

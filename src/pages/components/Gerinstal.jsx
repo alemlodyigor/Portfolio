@@ -1,5 +1,6 @@
 import React from "react";
 import VideoPlayer from "./VideoPlayer";
+import GerinstalVideo from "../../assets/gerinstal.mp4";
 
 const Gerinstal = () => {
   return (
@@ -17,7 +18,7 @@ const Gerinstal = () => {
         </p>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
-      <VideoPlayer />
+      <VideoPlayer data={GerinstalVideo}/>
     </div>
   );
 };

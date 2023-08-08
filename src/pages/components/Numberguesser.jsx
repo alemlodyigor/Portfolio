@@ -1,5 +1,6 @@
 import React from "react";
 import VideoPlayer from "./VideoPlayer";
+import NumberguesserVideo from '../../assets/numberguesser.mp4';
 
 const Numberguesser = () => {
   return (
@@ -12,7 +13,7 @@ const Numberguesser = () => {
         </p>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
-      <VideoPlayer />
+      <VideoPlayer data={NumberguesserVideo}/>
     </div>
   );
 };

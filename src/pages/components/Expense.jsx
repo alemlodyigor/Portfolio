@@ -1,5 +1,6 @@
 import React from "react";
 import VideoPlayer from "./VideoPlayer";
+import ExpenseVideo from "../../assets/expense.mp4";
 
 const Expense = () => {
   return (
@@ -11,7 +12,7 @@ const Expense = () => {
         </p>
         <h2 className="content-preview__desc__film">Film</h2>
       </div>
-      <VideoPlayer />
+      <VideoPlayer data={ExpenseVideo}/>
     </div>
   );
 };
