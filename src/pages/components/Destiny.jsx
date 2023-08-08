@@ -28,7 +28,6 @@ const Destiny = () => {
             - Rozmowy wideo
           </li>
         </ul>
-        <h2 className="content-preview__desc__film">Film</h2>
       </div>
     </div>
   );

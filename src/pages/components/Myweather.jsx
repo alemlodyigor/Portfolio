@@ -10,7 +10,7 @@ const Myweather = () => {
         <p>
           MyWeather to prosta aplikacja pokazująca prognozę pogody dla dowolnego
           miasta. Aplikacja używa API od
-          <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a>. Aplikacja
+          <a href="https://www.weatherapi.com/" target="_blank"> WeatherAPI</a>. Aplikacja
           automatycznie po załadowaniu sprawdza prognozę pogody dla miasta
           bazującego na geolokalizacji twojego IP. Po wyszukaniu miasta
           aplikacja dodaje je do ostatnich wyszukiwań. Aplikacja może być

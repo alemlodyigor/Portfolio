@@ -11,7 +11,7 @@ const Profile = () => {
       <h1 className="profile__name">Alemlodyigor</h1>
       <div className="profile__socials">
         <div className="profile__socials__block">
-          <a href="https://github.com/alemlodyigor/MyWeather" target="_blank"><img src={Github} alt="" /></a>
+          <a href="https://github.com/alemlodyigor" target="_blank"><img src={Github} alt="" /></a>
           <a href="https://twitter.com/alemlodyigor" target="_blank"><img src={X} alt="" /></a>
         </div>
       </div>

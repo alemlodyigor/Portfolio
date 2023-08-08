@@ -2,6 +2,9 @@
   --bgc-dark-primary: #212529;
   --bgc-dark-secondary: #343a40;
   --bgc-grey-primary: #e9ecef;
+  --link-color: #a5d8ff;
+  --link-color-hover: #4dabf7;
+  --link-color-active: #1c7ed6;
 }
 
 * {
@@ -36,16 +39,20 @@ body {
 
 a:link {
   text-decoration: none;
+  color: var(--link-color);
 }
 
 a:visited {
   text-decoration: none;
+  color: var(--link-color);
 }
 
 a:hover {
   text-decoration: none;
+  color: var(--link-color-hover);
 }
 
 a:active {
   text-decoration: none;
+  color: var(--link-color-active);
 }
