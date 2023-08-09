@@ -11,8 +11,12 @@ const Profile = () => {
       <h1 className="profile__name">Alemlodyigor</h1>
       <div className="profile__socials">
         <div className="profile__socials__block">
-          <a href="https://github.com/alemlodyigor" target="_blank"><img src={Github} alt="" /></a>
-          <a href="https://twitter.com/alemlodyigor" target="_blank"><img src={X} alt="" /></a>
+          <a href="https://github.com/alemlodyigor" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://twitter.com/alemlodyigor" target="_blank">
+            <img src={X} alt="" />
+          </a>
         </div>
       </div>
       <p className="profile__desc">
@@ -21,16 +25,16 @@ const Profile = () => {
         swoich projektach:
       </p>
       <ul className="profile__list">
-        <li className="profile__list__element">- HTML</li>
-        <li className="profile__list__element">- CSS</li>
-        <li className="profile__list__element">- SCSS</li>
-        <li className="profile__list__element">- JavaScript</li>
-        <li className="profile__list__element">- React</li>
+        <li className="profile__list__element"> HTML</li>
+        <li className="profile__list__element"> CSS</li>
+        <li className="profile__list__element"> SCSS</li>
+        <li className="profile__list__element"> JavaScript</li>
+        <li className="profile__list__element"> React</li>
         <li className="profile__list__element">
-          - Electron (tylko przy dystrybucji na systemy windows)
+          Electron (tylko przy dystrybucji na systemy windows)
         </li>
         <li className="profile__list__element">
-          - PHP (tylko przy formularzu kontaktu)
+          PHP (tylko przy formularzu kontaktu)
         </li>
       </ul>
     </div>

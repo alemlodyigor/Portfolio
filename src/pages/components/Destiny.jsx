@@ -19,13 +19,13 @@ const Destiny = () => {
         </p>
         <ul className="content-preview__desc__list">
           <li className="content-preview__desc__list__element">
-            - Wysyłanie wiadomości i wysyłanie załączników
+            Wysyłanie wiadomości i wysyłanie załączników
           </li>
           <li className="content-preview__desc__list__element">
-            - Rozmowy głosowe
+            Rozmowy głosowe
           </li>
           <li className="content-preview__desc__list__element">
-            - Rozmowy wideo
+            Rozmowy wideo
           </li>
         </ul>
       </div>

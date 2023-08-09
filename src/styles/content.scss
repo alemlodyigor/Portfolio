@@ -54,7 +54,8 @@
         margin-bottom: 1rem;
       }
       &__list {
-        list-style-type: none;
+        margin-left: 1rem;
+        list-style-type: "- ";
         &__element {
         }
         margin-bottom: 1rem;
