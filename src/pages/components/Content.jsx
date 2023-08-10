@@ -11,7 +11,11 @@ const Content = () => {
   const [prev, setPrev] = useState("");
 
   const handleProjectClick = (project) => {
-    setPrev(project);
+    if (prev === project) {
+      setPrev("");
+    } else {
+      setPrev(project);
+    }
   };
 
   return (
@@ -57,12 +61,14 @@ const Content = () => {
             </li>
           </ul>
         </nav>
-        {prev === "myw" && <Myweather />}
-        {prev === "gerinstal" && <Gerinstal />}
-        {prev === "midecco" && <Midecco />}
-        {prev === "destiny" && <Destiny />}
-        {prev === "expense" && <Expense />}
-        {prev === "numberguesser" && <Numberguesser />}
+        {prev === "myw" && <Myweather onClose={() => setPrev("")} />}
+        {prev === "gerinstal" && <Gerinstal onClose={() => setPrev("")} />}
+        {prev === "midecco" && <Midecco onClose={() => setPrev("")} />}
+        {prev === "destiny" && <Destiny onClose={() => setPrev("")} />}
+        {prev === "expense" && <Expense onClose={() => setPrev("")} />}
+        {prev === "numberguesser" && (
+          <Numberguesser onClose={() => setPrev("")} />
+        )}
       </div>
     </div>
   );

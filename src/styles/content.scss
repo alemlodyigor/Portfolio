@@ -40,6 +40,17 @@
     margin: 0rem 5rem 0rem 5rem;
     line-height: 2.2rem;
     height: 85.5vh;
+    position: relative;
+    &__close {
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      cursor: pointer;
+      svg {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
 
     &__name {
       text-transform: uppercase;
