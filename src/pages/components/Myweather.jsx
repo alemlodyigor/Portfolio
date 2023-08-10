@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import VideoPlayer from "./VideoPlayer";
 import MyW from "../../assets/myw.mp4";
 
@@ -27,6 +27,7 @@ const Myweather = ({ onClose }) => {
           MyWeather to prosta aplikacja pokazująca prognozę pogody dla dowolnego
           miasta. Aplikacja używa API od
           <a href="https://www.weatherapi.com/" target="_blank">
+            {" "}
             WeatherAPI
           </a>
           . Aplikacja automatycznie po załadowaniu sprawdza prognozę pogody dla
@@ -36,6 +37,7 @@ const Myweather = ({ onClose }) => {
           Została ona stworzona przy użyciu HTML, SCSS oraz JavaScript. Kod
           aplikacji jest dostępny na
           <a href="https://github.com/alemlodyigor/MyWeather" target="_blank">
+            {" "}
             Github
           </a>
           . Spis rzeczy które oferuje aplikacja:

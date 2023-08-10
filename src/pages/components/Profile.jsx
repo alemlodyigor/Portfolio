@@ -22,7 +22,12 @@ const Profile = () => {
       <p className="profile__desc">
         Igor, 20 letni przyszły front-end web developer. Jestem fanatykiem
         programowania z wielkimi ambicjami, a także zajmuję się produkcją
-        muzyki. Języki programowania oraz frameworki, których używam przy swoich
+        muzyki. Całą wiedzę i podstawowe umiejętności zdobyłem na własną rękę
+        przy pomocy kursów{" "}
+        <a href="https://www.udemy.com/user/jonasschmedtmann/" target="_blank">
+          Jonasa Schmedtmanna
+        </a>
+        . Języki programowania oraz frameworki, których używam przy swoich
         projektach:
       </p>
       <ul className="profile__list">

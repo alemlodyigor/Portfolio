@@ -24,8 +24,12 @@ const Numberguesser = ({ onClose }) => {
       </div>
       <div className="content-preview__desc">
         <p>
-          Number guesser to prosta aplikacja z kursu{" "}
-          <a href="https://twitter.com/jonasschmedtman" target="_blank">
+          Number guesser to prosta aplikacja z kursu
+          <a
+            href="https://www.udemy.com/user/jonasschmedtmann/"
+            target="_blank"
+          >
+            {" "}
             Jonasa Schmedtmanna
           </a>
           . System na początku każdej rozgrywki losuje liczbę z zakresu 1-20 a

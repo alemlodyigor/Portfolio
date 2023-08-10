@@ -29,10 +29,8 @@ const Expense = ({ onClose }) => {
           miesięcy która została przeze mnie napisana na początku mojej kariery
           z programowaniem, gdy jeszcze nawet nie ukończyłem kursu JavaScript.
           Jest ona tu podana tylko w celach informacyjnych a nie referencyjnych.
-          Można ją zobaczyć pod tym adresem{" "}
-          <a href="https://alestaryigor.ct8.pl/expense/" target="_blank">
-            {" "}
-            ExpenseApp
+          Można ją zobaczyć pod tym adresem
+          <a href="https://alestaryigor.ct8.pl/expense/" target="_blank"> ExpenseApp
           </a>
           .
         </p>

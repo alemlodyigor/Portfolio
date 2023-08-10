@@ -32,6 +32,13 @@
   }
   &__desc {
     margin-bottom: 1rem;
+    &__btn{
+      border:none;
+      background-color: transparent;
+      color: #fff;
+      font-size: 2.4rem;
+      cursor:pointer;
+    }
   }
 
   &__list {
