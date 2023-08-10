@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/profile.scss";
 import ProfileIMG from "../../assets/profileimg.png";
 import Github from "../../assets/github.svg";
 import X from "../../assets/x.png";
 
 const Profile = () => {
+  const [more, setMore] = useState(true);
+
+  const toggleMore = () => {
+    setMore((prevState) => !prevState);
+  };
+
   return (
     <div className="profile">
       <img src={ProfileIMG} alt="" className="profile__img" />
@@ -29,15 +35,18 @@ const Profile = () => {
         <li className="profile__list__element">CSS</li>
         <li className="profile__list__element">SCSS</li>
         <li className="profile__list__element">JavaScript</li>
-        <li className="profile__list__element">
-          PHP (tylko przy formularzu kontaktu)
-        </li>
         <li className="profile__list__element">React</li>
-        <li className="profile__list__element">
-          Electron (tylko przy dystrybucji na systemy windows)
-        </li>
-        <li className="profile__list__element">Firebase</li>
+        {more === true && (
+          <>
+            <li className="profile__list__element">PHP (formularz kontaktu)</li>
+            <li className="profile__list__element">
+              Electron (dystrybucja na systemy windows)
+            </li>
+            <li className="profile__list__element">Firebase</li>
+          </>
+        )}
       </ul>
+      {/* <button onClick={toggleMore}>{more ? "Mniej" : "Więcej"}</button> */}
     </div>
   );
 };
