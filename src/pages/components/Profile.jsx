@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../styles/profile.scss";
 import ProfileIMG from "../../assets/profileimg.png";
 import Github from "../../assets/github.svg";
 import X from "../../assets/x.png";
 
 const Profile = () => {
-  const [more, setMore] = useState(true);
-
-  const toggleMore = () => {
-    setMore((prevState) => !prevState);
-  };
-
   return (
     <div className="profile">
       <img src={ProfileIMG} alt="" className="profile__img" />
@@ -26,9 +20,10 @@ const Profile = () => {
         </div>
       </div>
       <p className="profile__desc">
-        Igor, 20 letni fanatyk programowania z wielkimi ambicjami, a także
-        fanatyk produkcji muzyki. Języki i frameworki, których używam przy
-        swoich projektach:
+        Igor, 20 letni przyszły front-end web developer. Jestem fanatykiem
+        programowania z wielkimi ambicjami, a także zajmuję się produkcją
+        muzyki. Języki programowania oraz frameworki, których używam przy swoich
+        projektach:
       </p>
       <ul className="profile__list">
         <li className="profile__list__element">HTML</li>
@@ -36,17 +31,12 @@ const Profile = () => {
         <li className="profile__list__element">SCSS</li>
         <li className="profile__list__element">JavaScript</li>
         <li className="profile__list__element">React</li>
-        {more === true && (
-          <>
-            <li className="profile__list__element">PHP (formularz kontaktu)</li>
-            <li className="profile__list__element">
-              Electron (dystrybucja na systemy windows)
-            </li>
-            <li className="profile__list__element">Firebase</li>
-          </>
-        )}
+        <li className="profile__list__element">PHP (formularz kontaktu)</li>
+        <li className="profile__list__element">
+          Electron (dystrybucja na systemy windows)
+        </li>
+        <li className="profile__list__element">Firebase</li>
       </ul>
-      {/* <button onClick={toggleMore}>{more ? "Mniej" : "Więcej"}</button> */}
     </div>
   );
 };
