@@ -6,10 +6,18 @@
   grid-template-rows: 1fr 0.2fr 0.2fr 0.2fr 0.7fr;
   padding: 2rem 2rem 0rem 2rem;
   font-size: 1.8rem;
+  @media only screen and (max-width: 850px) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
   &__img {
     width: 90%;
     justify-self: center;
     border-radius: 50%;
+    @media only screen and (max-width: 850px) {
+      width: 50%;
+    }
+
   }
 
   &__socials {
