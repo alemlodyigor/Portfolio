@@ -30,7 +30,7 @@ const Expense = ({ onClose }) => {
           z programowaniem, gdy jeszcze nawet nie ukończyłem kursu JavaScript.
           Jest ona tu podana tylko w celach informacyjnych a nie referencyjnych.
           Można ją zobaczyć pod tym adresem
-          <a href="https://alestaryigor.ct8.pl/expense/" target="_blank"> ExpenseApp
+          <a href="./expense/" target="_blank"> ExpenseApp
           </a>
           .
         </p>

@@ -37,7 +37,7 @@ const Numberguesser = ({ onClose }) => {
           odpowiedzią użytkownik traci jeden punkt. Aplikacja została przeze
           mnie na początku mojej kariery programisty podczas robienia kursu
           JavaScript. Można ją sprawdzić pod tym adresem
-          <a href="https://alestaryigor.ct8.pl/gra/" target="_blank">
+          <a href="./gra/" target="_blank">
             {" "}
             Number Guesser
           </a>

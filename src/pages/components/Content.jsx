@@ -75,7 +75,7 @@ const Content = () => {
                 />
               </svg>
             </div>
-            <ul className="content-projects__nav__menu__list" onClick={handleNavSwitch}>
+            <ul className="content-projects__nav__menu__list">
               <li
                 onClick={() => handleProjectClick("myw")}
                 className="content-projects__nav__menu__list__element"
