@@ -6,6 +6,7 @@ import Destiny from "./Destiny";
 import Expense from "./Expense";
 import Numberguesser from "./Numberguesser";
 import Midecco from "./Midecco";
+import Notewave from "./Notewave";
 
 const Content = () => {
   const [prev, setPrev] = useState("");
@@ -95,11 +96,19 @@ const Content = () => {
                 Midecco
               </li>
               <li
+                className="content-projects__nav__menu__list__element"
+                onClick={() => handleProjectClick("notewave")}
+              >
+                NoteWave
+              </li>
+              {/* 
+              <li
                 onClick={() => handleProjectClick("destiny")}
                 className="content-projects__nav__menu__list__element"
               >
                 DestinyApp
               </li>
+               */}
               <li
                 onClick={() => handleProjectClick("expense")}
                 className="content-projects__nav__menu__list__element"
@@ -135,11 +144,19 @@ const Content = () => {
               Midecco
             </li>
             <li
-              onClick={() => handleProjectClick("destiny")}
-              className="content-projects__list__element"
+              className="content-projects__nav__menu__list__element"
+              onClick={() => handleProjectClick("notewave")}
             >
-              DestinyApp
+              NoteWave
             </li>
+            {/* 
+              <li
+                onClick={() => handleProjectClick("destiny")}
+                className="content-projects__nav__menu__list__element"
+              >
+                DestinyApp
+              </li>
+               */}
             <li
               onClick={() => handleProjectClick("expense")}
               className="content-projects__list__element"
@@ -157,7 +174,8 @@ const Content = () => {
         {prev === "myw" && <Myweather onClose={() => setPrev("")} />}
         {prev === "gerinstal" && <Gerinstal onClose={() => setPrev("")} />}
         {prev === "midecco" && <Midecco onClose={() => setPrev("")} />}
-        {prev === "destiny" && <Destiny onClose={() => setPrev("")} />}
+        {/* {prev === "destiny" && <Destiny onClose={() => setPrev("")} />} */}
+        {prev === "notewave" && <Notewave onClose={() => setPrev("")} />}
         {prev === "expense" && <Expense onClose={() => setPrev("")} />}
         {prev === "numberguesser" && (
           <Numberguesser onClose={() => setPrev("")} />
