@@ -27,8 +27,9 @@ const Notewave = ({ onClose }) => {
           NoteWave to prosty notatnik online. Pozwala on na tworzenie notatek
           oraz udostępnianie ich innym użytkownikom. Notatki zapisują się na
           koncie, dzięki funkcji posiadania konta. Aplikacja jest napisana w
-          React i pracuje na Firebase. Kod aplikacji jest dostępny na{" "}
-          <a href="https://github.com/alemlodyigor/NoteWave">Github</a>
+          React i pracuje na Firebase. Kod aplikacji jest dostępny na
+          <a href="https://github.com/alemlodyigor/NoteWave">Github</a>. 
+          Aplikacja będzie dostępna <a href="./notewave">pod tym adresem</a>
         </p>
       </div>
     </div>
