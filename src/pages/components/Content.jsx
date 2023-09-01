@@ -101,14 +101,6 @@ const Content = () => {
               >
                 NoteWave
               </li>
-              {/* 
-              <li
-                onClick={() => handleProjectClick("destiny")}
-                className="content-projects__nav__menu__list__element"
-              >
-                DestinyApp
-              </li>
-               */}
               <li
                 onClick={() => handleProjectClick("expense")}
                 className="content-projects__nav__menu__list__element"
@@ -149,14 +141,6 @@ const Content = () => {
             >
               NoteWave
             </li>
-            {/* 
-              <li
-                onClick={() => handleProjectClick("destiny")}
-                className="content-projects__nav__menu__list__element"
-              >
-                DestinyApp
-              </li>
-               */}
             <li
               onClick={() => handleProjectClick("expense")}
               className="content-projects__list__element"
@@ -174,7 +158,6 @@ const Content = () => {
         {prev === "myw" && <Myweather onClose={() => setPrev("")} />}
         {prev === "gerinstal" && <Gerinstal onClose={() => setPrev("")} />}
         {prev === "midecco" && <Midecco onClose={() => setPrev("")} />}
-        {/* {prev === "destiny" && <Destiny onClose={() => setPrev("")} />} */}
         {prev === "notewave" && <Notewave onClose={() => setPrev("")} />}
         {prev === "expense" && <Expense onClose={() => setPrev("")} />}
         {prev === "numberguesser" && (

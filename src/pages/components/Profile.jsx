@@ -27,20 +27,19 @@ const Profile = () => {
         <a href="https://www.udemy.com/user/jonasschmedtmann/" target="_blank">
           Jonasa Schmedtmanna
         </a>
-        . Języki programowania oraz frameworki, których używam przy swoich
-        projektach:
+        . Tych rzeczy używam w swoich projektach:
       </p>
       <ul className="profile__list">
         <li className="profile__list__element">HTML</li>
         <li className="profile__list__element">CSS</li>
         <li className="profile__list__element">SCSS</li>
         <li className="profile__list__element">JavaScript</li>
+        <li className="profile__list__element">TypeScript</li>
         <li className="profile__list__element">React</li>
-        <li className="profile__list__element">PHP (formularz kontaktu)</li>
-        <li className="profile__list__element">
-          Electron (dystrybucja na systemy windows)
-        </li>
+        <li className="profile__list__element">PHP</li>
         <li className="profile__list__element">Firebase</li>
+        <li className="profile__list__element">C++</li>
+        <li className="profile__list__element">Java</li>
       </ul>
     </div>
   );
